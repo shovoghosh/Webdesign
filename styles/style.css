@@ -18,7 +18,12 @@ a:link {
 }
 h3
 {
-   color: white; 
+   color: #ffffff; 
+}
+
+h5
+{
+   color: #c9c9c9; 
 }
 
 .button1 {
