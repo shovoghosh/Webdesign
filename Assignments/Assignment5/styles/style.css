@@ -1,0 +1,289 @@
+/*Main*/
+.main {
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+/*Row 1 Start*/
+.row1 {
+    height: 200px;
+    width: 600px;
+    background-color: #e527ed;
+    float: left;
+}
+
+.row1-c1 {
+    height: 200px;
+    width: 100px;
+    background-color: #e527ed;
+    float: left;
+}
+
+.row1-c1-r1 {
+    height: 100px;
+    width: 100px;
+    background-color: #e527ed;
+}
+
+.row1-c1-r2 {
+    height: 100px;
+    width: 100px;
+    background-color: #197942;
+}
+
+.row1-c2 {
+    height: 200px;
+    width: 100px;
+    background-color: #2799ed;
+    float: left;
+}
+
+.row1-c2-r1 {
+    height: 66.5px;
+    width: 100px;
+    background-color: #2799ed;
+}
+
+.row1-c2-r2 {
+    height: 66.5px;
+    width: 100px;
+    background-color: #58608d;
+}
+
+.row1-c2-r3 {
+    height: 66.5px;
+    width: 100px;
+    background-color: #f0e127;
+}
+
+.row1-c3 {
+    height: 200px;
+    width: 400px;
+    background-color: #a127ed;
+    float: left;
+}
+
+.row1-c3-r1 {
+    height: 100px;
+    width: 400px;
+    background-color: #a127ed;
+}
+
+.row1-c3-r2 {
+    height: 100px;
+    width: 400px;
+    background-color: #126256;
+}
+
+.row1-c3-r2-c1 {
+    height: 100px;
+    width: 200px;
+    background-color: #126256;
+    float: left;
+}
+
+.row1-c3-r2-c2 {
+    height: 100px;
+    width: 200px;
+    background-color: #4b82db;
+    float: left;
+}
+
+.row1-c3-r2-c2-r1 {
+    height: 50px;
+    width: 200px;
+    background-color: #4b82db;
+}
+
+.row1-c3-r2-c2-r2 {
+    height: 50px;
+    width: 200px;
+    background-color: #994bdb;
+}
+
+.row1-c3-r2-c2-r2-c1 {
+    height: 50px;
+    width: 100px;
+    background-color: #994bdb;
+    float: left;
+}
+
+.row1-c3-r2-c2-r2-c2 {
+    height: 50px;
+    width: 100px;
+    background-color: #75e67a;
+    float: left;
+}
+
+
+/*Row 1 End*/
+
+/*Row 2 Start*/
+
+.row2 {
+    height: 200px;
+    width: 600px;
+    background-color: #27ed45;
+}
+
+.row2-c1 {
+    height: 200px;
+    width: 150px;
+    background-color: #27ed45;
+    float: left;
+}
+
+.row2-c2 {
+    height: 200px;
+    width: 150px;
+    background-color: #6427ed;
+    float: left;
+}
+
+.row2-c2-r1 {
+    height: 100px;
+    width: 150px;
+    background-color: #6a539f;
+
+}
+
+.row2-c2-r2 {
+    height: 100px;
+    width: 150px;
+    background-color: #27b8ed;
+
+}
+
+.row2-c2-r2-c1 {
+    height: 100px;
+    width: 75px;
+    background-color: #27b8ed;
+    float: left;
+}
+
+.row2-c2-r2-c2 {
+    height: 100px;
+    width: 75px;
+    background-color: #edde27;
+    float: left;
+}
+
+.row2-c2-r2-c2-r1 {
+    height: 50px;
+    width: 75px;
+    background-color: #edde27;
+}
+
+.row2-c2-r2-c2-r2 {
+    height: 50px;
+    width: 75px;
+    background-color: #5e5a67;
+}
+
+.row2-c3 {
+    height: 200px;
+    width: 150px;
+    background-color: #ed27b8;
+    float: left;
+}
+
+.row2-c4 {
+    height: 200px;
+    width: 150px;
+    background-color: #ed6c27;
+    float: left;
+}
+
+.row2-c4-r1 {
+    height: 100px;
+    width: 150px;
+    background-color: #ed6c27;
+}
+
+.row2-c4-r2 {
+    height: 100px;
+    width: 150px;
+    background-color: #699d52;
+}
+
+.row2-c4-r2-c1 {
+    height: 100px;
+    width: 75px;
+    background-color: #699d52;
+    float: left;
+}
+
+.row2-c4-r2-c2 {
+    height: 100px;
+    width: 75px;
+    background-color: #f5b18d;
+    float: left;
+}
+
+
+/*Row 2 End*/
+
+
+/*Row 3 Start*/
+.row3 {
+    height: 200px;
+    width: 600px;
+    background-color: #2764ed;
+}
+
+.row3-c1 {
+    height: 200px;
+    width: 150px;
+    background-color: #b8ed27;
+    float: left;
+
+}
+
+.row3-c2 {
+    height: 200px;
+    width: 300px;
+    background-color: #27deed;
+    float: left;
+
+}
+
+.row3-c2-r1 {
+
+    height: 100px;
+    width: 300px;
+    background-color: #00c946;
+}
+
+.row3-c2-r2 {
+
+    height: 100px;
+    width: 300px;
+    background-color: #ed277b;
+}
+
+.row3-c2-r2-c1 {
+    height: 100px;
+    width: 150px;
+    background-color: #ed277b;
+    float: left;
+}
+
+.row3-c2-r2-c2 {
+    height: 100px;
+    width: 150px;
+    background-color: #5c27ed;
+    float: left;
+}
+
+
+.row3-c3 {
+    height: 200px;
+    width: 150px;
+    background-color: #412f8d;
+    float: left;
+
+}
+
+/*Row 3 End*/
