@@ -1,0 +1,346 @@
+.blogtext h1 {
+    color: white;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.blogtext p {
+    color: white;
+    margin-left: 340px;
+}
+
+.navbar {
+    background-image: url("../../images/so.png");
+    background-color: #cccccc;
+    height: 400px;
+    width: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+}
+
+/*============ 4. Banner Section============*/
+
+.logo {
+    margin-left: 14px;
+    margin-top: 20px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    width: 750px;
+    height: 50px;
+
+    margin-left: 424px;
+    margin-top: -84px;
+}
+
+
+.menu ul li {
+    margin-top: 15px;
+    float: left;
+}
+
+.menu ul li a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 0 15px;
+    line-height: 50px;
+    display: inline-block;
+    transition: .4s all linear;
+    -webkit-transition: .4s all linear;
+    -moz-transition: .4s all linear;
+    -o-transition: .4s all linear;
+    -ms-transition: .4s all linear;
+}
+
+.menu ul li a:hover {
+    background: rgba(94, 149, 204, 0.59);
+}
+
+.home {
+    height: 1200px;
+    width: 1200px;
+    background: #ebebeb;
+    margin: 0 auto;
+}
+
+.part1 {
+    margin: 5px;
+    height: 480px;
+    width: 390px;
+    background: #5C98E7;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+}
+
+.part1 h3,
+p {
+    margin-left: 10px;
+}
+
+.part1 p {
+    color: white;
+}
+
+.part2 h3,
+p {
+    margin-left: 10px;
+}
+
+.part2 p {
+    color: white;
+}
+
+
+.part3 h3,
+p {
+    margin-left: 10px;
+}
+
+.part3 p {
+    color: white;
+}
+
+div.image1 {
+
+    height: 240px;
+    width: 390px;
+    background-image: url('../../images/1.png');
+    /*    content:url(http://placehold.it/390x240);*/
+}
+
+div.image2 {
+
+    height: 240px;
+    width: 390px;
+    background-image: url('../../images/2.png');
+    /*    content:url(http://placehold.it/390x240);*/
+}
+
+div.image3 {
+
+    height: 240px;
+    width: 390px;
+    background-image: url('../../images/3.png');
+    /*    content:url(http://placehold.it/390x240);*/
+}
+
+div.image11 {
+
+    height: 240px;
+    width: 390px;
+    background-image: url('../../images/img-1.jpg');
+    /*    content:url(http://placehold.it/390x240);*/
+}
+
+div.image22 {
+
+    height: 240px;
+    width: 390px;
+    background-image: url('../../images/img-2.jpg');
+    /*    content:url(http://placehold.it/390x240);*/
+}
+
+div.image33 {
+
+    height: 240px;
+    width: 390px;
+    background-image: url('../../images/img-3.jpg');
+    /*    content:url(http://placehold.it/390x240);*/
+}
+
+.part2 {
+    margin: 5px;
+    height: 480px;
+    width: 390px;
+    background: #5C98E7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+}
+
+.part3 {
+    margin: 5px;
+    height: 480px;
+    width: 390px;
+    background: #5C98E7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+}
+
+ul#nav1 li a:hover,
+ul#nav1 li.active a {
+    background: rgba(94, 149, 204, 0.59);
+}
+
+.button {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.48);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.pagination {
+    display: inline-block;
+    margin-top: 50px;
+
+}
+
+.pagination a {
+    color: black;
+    font-size: 22px;
+    float: left;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #5C98E7;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+    height: 300px;
+    width: 1200px;
+    background-color: #4d4747;
+    margin: 0 auto;
+}
+
+.fp1,
+.fp2,
+.fp3 {
+    height: 300px;
+    width: 400px;
+    background: #4d4747;
+    float: left;
+}
+
+.fp1 h2,
+p {
+    margin-left: 20px;
+}
+
+.fp1,
+.fp2,
+.fp3 h2 {
+    color: #5C98E7;
+}
+
+.fp1 p,
+li {
+    color: white;
+}
+
+.fp1 p {
+    font-size: 18px;
+}
+
+.fp1 ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+input[type=text],
+input[type=email] {
+    width: 90%;
+    padding: 10px 18px;
+    margin: 8px 0;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #4D4747;
+    border-bottom: 2px solid #0089ff;
+}
+
+textarea {
+    width: 90%;
+    height: 40px;
+    margin: 8px 0;
+    margin-left: 10px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #4D4747;
+    border-bottom: 2px solid #0089ff;
+
+}
+
+.button1 {
+    background-color: rgba(0, 0, 0, 0.48);
+    border: none;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
